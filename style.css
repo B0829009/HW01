@@ -13,11 +13,8 @@ h2{
 }
 @media screen and (min-width:768px){   
     .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
-<<<<<<< HEAD
         max-width:50%;
-=======
         width:50%;
->>>>>>> e314372c9d63c2d1b3bbce3d64250b70ab7344e0
         height:auto;
         margin: 0 auto;
     }
@@ -25,7 +22,6 @@ h2{
 
 @media screen and (min-width:481px) and (max-width:768px){
     .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
-<<<<<<< HEAD
         max-width: 30%;
         height:auto;
         margin: 0 auto;
@@ -33,15 +29,13 @@ h2{
 @media screen and (min-width:0px) and (max-width:480px){
     .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
         max-width: 10%;
-=======
         width: 30%;
         height:auto;
         margin: 0 auto;
 }
-@media screen (min-width:0px) and (max-width:480px){
+@media screen and (min-width:0px) and (max-width:480px){
     .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
         width: 10%;
->>>>>>> e314372c9d63c2d1b3bbce3d64250b70ab7344e0
         height:auto;
         margin: 0 auto;
 }
