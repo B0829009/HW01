@@ -10,7 +10,7 @@ h2{
 @media screen and (min-width:768px){   
     .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
         width:50%;
-        heigh:auto;
+        height:auto;
         margin: 0 auto;
     }
 }
@@ -18,12 +18,12 @@ h2{
 @media screen and (min-width:481px) and (max-width:768px){
     .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
         width: 30%;
-        heigh:auto;
+        height:auto;
         margin: 0 auto;
 }
 @media screen (min-width:0px) and (max-width:480px){
     .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
         width: 10%;
-        heigh:auto;
+        height:auto;
         margin: 0 auto;
 }
