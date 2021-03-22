@@ -7,8 +7,20 @@ h2{
 .pokedex{
     line-height: 70px;
 }
-@media (min-width: 600px) {
-    .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX {
-      width: 50%;
+@media screen and (max-width:768px){   
+    .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
+        width:100%
+        margin: 0 auto;
     }
-  }
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+    .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
+        width: 50%;
+        margin: 0 auto;
+}
+@media screen (max-width:0px) and (max-width:480px){
+    .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
+        width: 20%;
+        margin: 0 auto;
+}
