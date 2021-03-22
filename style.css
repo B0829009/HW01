@@ -7,7 +7,7 @@ h2{
 .pokedex{
     line-height: 70px;
 }
-@media screen and (max-width:768px){   
+@media screen (min-width:768px){   
     .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
         width:50%
         margin: 0 auto;
@@ -19,7 +19,7 @@ h2{
         width: 30%;
         margin: 0 auto;
 }
-@media screen (max-width:0px) and (max-width:480px){
+@media screen (min-width:0px) and (max-width:480px){
     .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
         width: 10%;
         margin: 0 auto;
