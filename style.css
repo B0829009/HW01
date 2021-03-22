@@ -1,5 +1,9 @@
+title{
+    font-family:Comic Sans MS, Comic Sans, cursive;
+}
 h1{
     font-size: 35px;
+    font-family:Comic Sans MS, Comic Sans, cursive;
 }
 h2{
     background-color: rgb(172, 195, 240);
@@ -7,20 +11,23 @@ h2{
 .pokedex{
     line-height: 70px;
 }
-@media screen and (max-width:768px){   
+@media screen and (min-width:768px){   
     .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
-        width:100%
+        max-width:50%;
+        height:auto;
         margin: 0 auto;
     }
 }
 
 @media screen and (min-width:481px) and (max-width:768px){
     .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
-        width: 50%;
+        max-width: 30%;
+        height:auto;
         margin: 0 auto;
 }
-@media screen (max-width:0px) and (max-width:480px){
+@media screen and (min-width:0px) and (max-width:480px){
     .I, .II, .III, .IV, .V, .VI, .VII, .VIII, .IX{
-        width: 20%;
+        max-width: 10%;
+        height:auto;
         margin: 0 auto;
 }
